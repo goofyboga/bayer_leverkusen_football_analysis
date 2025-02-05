@@ -7,14 +7,13 @@ on and off the pitch. But Alonso’s tactics on the pitch may come as a surprise
 with the ball. Alonso has proven that the possession game can be played just as effectively in his own special way, without needing to conform to these modern standards.
 
 ## Data
-This project uses event-based match data from Statsbomb to extract tactical insights into Bayer Leverkusen’s playing style. Key focus areas include:
+This project uses event-based match data from Statsbomb to extract tactical insights into Bayer Leverkusen’s playing style. To analyze these, the project uses Python, Pandas, and statistical models while visualizing key patterns with matplotlib & mplsoccer (heatmaps, pass networks, shot maps). 
 
-Turnovers & Transition – Where & how they win the ball.
-Ball Progression – How they move up the pitch.
-Shot Creation & xG – How they generate high-quality chances.
-Defensive Structure – Mid-block efficiency & counterpressing success.
-
-To analyze these, the project uses Python, Pandas, and statistical models while visualizing key patterns with matplotlib & mplsoccer (heatmaps, pass networks, shot maps). 
-The main footballing concepts that are explored in this project include relationism, territorial dominance (and defensive distance), effective counterpressing and the execution of a midblock.
+The main footballing concepts explored in this project are:
+1) Turnovers & Transition – Where & how they win the ball.
+2) Ball Progression – How they move up the pitch.
+3) Shot Creation & xG – How they generate high-quality chances.
+4) Defensive Structure – Mid-block efficiency & counterpressing success.
+5) Relationism - Territorial dominance both in terms of defensive distance and 3rd man combinations
 
 Note: This project is currently 20% complete. I've deliberately excluded insights and analysis for now, as I want to fully explore all metrics without bias. A comprehensive tactical report on Bayer Leverkusen will be finalized by early March 2025.
