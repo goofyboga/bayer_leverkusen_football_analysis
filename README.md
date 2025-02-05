@@ -9,10 +9,10 @@ with the ball. Alonso has proven that the possession game can be played just as 
 ## Data
 This project uses event-based match data from Statsbomb to extract tactical insights into Bayer Leverkusen’s playing style. Key focus areas include:
 
-Turnovers & Transition – Where & how they win the ball
-Ball Progression – How they move up the pitch
-Shot Creation & xG – How they generate high-quality chances
-Defensive Structure – Mid-block efficiency & counterpressing success
+Turnovers & Transition – Where & how they win the ball.
+Ball Progression – How they move up the pitch.
+Shot Creation & xG – How they generate high-quality chances.
+Defensive Structure – Mid-block efficiency & counterpressing success.
 
 To analyze these, the project uses Python, Pandas, and statistical models while visualizing key patterns with matplotlib & mplsoccer (heatmaps, pass networks, shot maps). 
 The main footballing concepts that are explored in this project include relationism, territorial dominance (and defensive distance), effective counterpressing and the execution of a midblock.
