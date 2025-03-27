@@ -1,19 +1,22 @@
 ## Overview
-11 years is a long time. For 11 consecutive years, the powerhouse of German club Bayern Munich dominated the Bundesliga, winning the title year after year. The German domestic title almost seemed predestined to never be claimed by any other German team again. 
-Then in the 2023/2024 season Xabi Alonso’s Bayer Leverkusen shattered Bayern’s streak, and won their first ever Bundesliga title. And they did it with style, becoming the first and only team to ever go undefeated in the German Bundesliga. Over the decades, 
-Leverkusen have been dubbed “Neverkusen” by the media for being runner-ups and their heartbreaking near-misses in major competitions, time and time again. Upon lifting the Bundesliga trophy undefeated,  the “Nearly Men” went from Neverkusen to Neverlusen. 
-When the retired Xabi Alonso took over in the previous season, Bayer Leverkusen was languishing in the relegation places and in deep trouble. No one could imagine that only one season later, the Spanish midfield maestro would completely transform the team both 
-on and off the pitch. But Alonso’s tactics on the pitch may come as a surprise to many. In a modern era of Guardiola-esque football, for many teams it seems almost a necessity to “relentlessly press” the opposition without the ball and “play out from the back” 
-with the ball. Alonso has proven that the possession game can be played just as effectively in his own special way, without needing to conform to these modern standards.
+In the 2023/2024 season German team Bayer Leverkusen won their first ever Bundesliga title. And they did it with style, being underdogs and the first and only team to ever go undefeated in the German Bundesliga.
+Their success is rooted in focus question of my project, "How did Bayer Leverkusen move the ball up the pitch upon regaining possession?" 
 
-## Data
-This project uses event-based match data from Statsbomb to extract tactical insights into Bayer Leverkusen’s playing style. To analyze these, the project uses Python, Pandas, and statistical models while visualizing key patterns with matplotlib & mplsoccer (heatmaps, pass networks, shot maps). 
-
-The main footballing concepts explored in this project are:
+It deals with two key footballing concepts:
 1) Turnovers & Transition – Where & how they win the ball.
 2) Ball Progression – How they move up the pitch.
-3) Shot Creation & xG – How they generate high-quality chances.
-4) Defensive Structure – Mid-block efficiency & counterpressing success.
-5) Relationism - Territorial dominance both in terms of defensive distance and 3rd man combinations
 
-Note: This project is currently 20% complete. I've deliberately excluded insights and analysis for now, as I want to fully explore all metrics without bias. A comprehensive tactical report on Bayer Leverkusen will be finalized by early March 2025.
+
+## Data
+This project uses event-based, time series match data from Statsbomb to extract tactical insights into Bayer Leverkusen’s playing style. 
+The first part of this personal project incoproates EDA with Python and Panda while visualizing key patterns with matplotlib & mplsoccer (heatmaps, pass networks, shot maps). 
+The second part experiments extensively with logistical regression pipelines, predicting what conditions best enabled Bayer Leverkusen's progression into the final sixth of the pitch after regaining possession. 
+The models were iteratively refined and improved through normalization, regularization, cross-validation, Confusion matrices, hyperparameter tuning, and evaluation using key metrics like accuracy and AUC-ROC.
+
+## Executive Summary
+Over the course of this project, I attained a drastic improvement in model performance. The final model X_6 achieved an impressive accuracy of 82.86%, with balanced precision and recall (83.52%), and most importantly 
+an AUC-ROC of 0.91, demonstrating its ability to reliably predict Bayer Leverkusen’s progression into the final sixth after regaining possession. The model reveals that progressive carries are 21.4% effective than progressive 
+passes in advancing the ball into the final sixths. This underscores Bayer Leverkusen's dynamic style of relationism play in drawing the opposiiton's press using carries down the wing to open oppositions up. The model favored 
+longer durations of patient posession. Finally, Leverkusen had the ability to create unbiased penetration from both left and right sides of the pitch in different ways, characterized by long switches of play from Grimaldo on 
+the left and explosive dribbles by Frimpong on the right.
+
