@@ -1,4 +1,4 @@
-## Executive Summary
+## Technical Summary
 Over the course of this project, I attained a drastic improvement in model performance. The final model X_6 achieved an impressive accuracy of 82.86%, with balanced precision and recall (83.52%), and most importantly 
 an AUC-ROC of 0.91, demonstrating its ability to reliably predict Bayer Leverkusen’s progression into the final sixth after regaining possession. The model reveals that progressive carries are 21.4% effective than progressive 
 passes in advancing the ball into the final sixths. This underscores Bayer Leverkusen's dynamic style of relationism play in drawing the opposiiton's press using carries down the wing to open oppositions up. The model favored 
