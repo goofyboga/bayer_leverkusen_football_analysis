@@ -5,7 +5,7 @@ passes in advancing the ball into the final sixths. This underscores Bayer Lever
 longer durations of patient posession. Finally, Leverkusen had the ability to create unbiased penetration from both left and right sides of the pitch in different ways, characterized by long switches of play from Grimaldo on 
 the left and explosive dribbles by Frimpong on the right.
 
-## Data
+## Specification
 This project uses event-based, time series match data from Statsbomb to extract tactical insights into Bayer Leverkusen’s playing style. 
 The first part of this personal project incoproates EDA with Python and Panda while visualizing key patterns with matplotlib & mplsoccer (heatmaps, pass networks, shot maps). 
 The second part experiments extensively with logistical regression pipelines, predicting what conditions best enabled Bayer Leverkusen's progression into the final sixth of the pitch after regaining possession. 
