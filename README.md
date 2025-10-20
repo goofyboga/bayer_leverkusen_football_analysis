@@ -8,7 +8,7 @@ It deals with two key footballing concepts:
 2) Ball Progression – How they move up the pitch.
 
 ### 1.2 Key Insights
-The model reveals that progressive carries are 21.4% effective than progressive passes in advancing the ball into the final sixths. This underscores Bayer Leverkusen's dynamic style of relationism play in drawing the opposiiton's press using carries down the wing to open oppositions up. The model favored longer durations of patient posession. 
+The model reveals that progressive carries are 21.4% effective than progressive passes in advancing the ball into the final sixths. This underscores Bayer Leverkusen's dynamic style of relationism play in drawing the opposiiton's press using carries down the wing to open oppositions up. 
 
 <p align="center">
   <img src="feature_importance_final.png" alt="Feature Importance" width="1000"/>
@@ -23,6 +23,8 @@ Leverkusen had the ability to create unbiased penetration from both left and rig
 <p align="center">
   <img src="progressions_right_attacking_midfield.png" alt="Area 2" width="1000"/>
 </p>
+
+The final model favored longer durations of patient posession, and a tendency to play the ball backwards even when winning it back in the opposition's half. It is also worth noting their territorial dominance, as their own defensive sixth was rarely penetrated and had the fewest number of defensive actions out of any team in the Bundesliga this season. This idea of defensive territorial dominance is reflected in the turnover heatmap.
 
 ### 1.3 EDA Approach
 I approached the EDA from a geo-spatially and time-series perspective, by doing heatmap isolations of their ball progressions from high yield zones of the pitch where turnovers lead to successful progressions in the same sequence of play. Pandas, matplotlib & mplsoccer were used extensively to create heatmaps and pass/carry networks whilst correlation plots were used extensively to tweak parameters.
