@@ -24,7 +24,7 @@ Leverkusen had the ability to create unbiased penetration from both left and rig
   <img src="progressions_right_attacking_midfield.png" alt="Area 2" width="1000"/>
 </p>
 
-The final model favored longer durations of patient posession, and a tendency to play the ball backwards even when winning it back in the opposition's half. It is also worth noting their territorial dominance, as their own defensive sixth was rarely penetrated and had the fewest number of defensive actions out of any team in the Bundesliga this season. This idea of defensive territorial dominance is reflected in the turnover heatmap.
+The final model favored longer durations of patient posession, and a tendency to play the ball backwards even when winning it back in the opposition's half. It is also worth noting their territorial dominance, as their own defensive sixth was rarely penetrated and had the highest defensive distance (key number of defensive actions away from their own box) out of any team in the Bundesliga this season. This idea of defensive territorial dominance is reflected in the turnover heatmap below with the bulk of the turnovers in the midfield.
 
 ### 1.3 EDA Approach
 I approached the EDA from a geo-spatially and time-series perspective, by doing heatmap isolations of their ball progressions from high yield zones of the pitch where turnovers lead to successful progressions in the same sequence of play. Pandas, matplotlib & mplsoccer were used extensively to create heatmaps and pass/carry networks whilst correlation plots were used extensively to tweak parameters.
